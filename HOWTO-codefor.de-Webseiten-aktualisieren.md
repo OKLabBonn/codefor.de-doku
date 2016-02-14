@@ -5,6 +5,8 @@
 ## Einleitung / Setup
 Hier steht etwas über Git(Hub), was man sich am Rechner installieren muss (Minimum / Maximum; Maximum für wenn man selbst lokal die Seiten bauen lassen will, um das Ergebnis vorab sehen zu können), welches Repository man forken und sich danach klonen muss, wie das codefor.de Repository überhaupt aufgebaut ist, welche Technologien benutzt werden für welche Aufgabe, welches grundsätzliche Format (Markdown, HTML, ...) welche Dateien haben etc.
 
+Grundsätzlich ist natürlich [das README des codefor.de repositories](https://github.com/okfde/codefor.de/blob/gh-pages/README.md) lesenswert. Es enthält eine Anleitung, was man sich auf seinem Rechner installieren muss, um den gesamten Build-Prozess der codefor.de Webseiten auch zuhause nachvollziehen und Änderungen previewen zu können.
+
 Es folgen verschiedene *use cases*.
 
 ## Neues Projekt hinzufügen
@@ -55,7 +57,11 @@ Es folgen verschiedene *use cases*.
 
 
 ## Neuen Termin für ein OK Lab Treffen einstellen
-- tbd.
+- Im Verzeichnis _termine gibt es für jedes OK Lab genau eine Datei, für Bonn ist es OK_Lab_Bonn.md.
+- Darin Datum (YYYY-MM-DD), Uhrzeit, Ort ggfs. anpassen.
+- ACHTUNG: keine Anführungszeichen verwenden!
+- Alles natürlich via git, also neue Dateiversion commiten und Pullrequest stellen.
+- Pullrequest muss gemerged werden (nachdem der automatische build Prozess fehlerfrei durchlief).
 
 ## Beschreibung des eigenen OK Labs anpassen
 - Hier auch: Personen mit ihren Accounts und Fotos hinzufügen
